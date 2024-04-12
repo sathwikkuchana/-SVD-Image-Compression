@@ -20,26 +20,11 @@ compress_image('/path/to/image.jpg', num_components=50)
 # 2: Rayleigh Iteration Method and Power Iteration Method
 This section includes implementations of the Rayleigh Iteration Method and the Power Iteration Method for finding eigenvalues and eigenvectors of a matrix.
 
-Example usage:
 
-python
-Copy code
-np.random.seed(100)
-A = np.random.random((3, 3))
-U, S, Vt = svd(A)
-
-print("U :", U)
-print("S :", S)
-print("Vt :", Vt)
 # 3: Batch Compression of Images
 The code in this section compresses multiple images in batch using the compress_image function with varying numbers of components. It displays the original and compressed images for each iteration, along with the compression ratio and relative error.
 
-Example usage:
 
-python
-Copy code
-for i in range(2, 50, 5):
-    compress_image('/path/to/image.jpg', i)
 # Dependencies
 The code relies on the following libraries:
 
