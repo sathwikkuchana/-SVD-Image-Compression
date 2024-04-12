@@ -1,1 +1,1 @@
-# -SVD-Image-Compression
+# SVD-Image-Compression
